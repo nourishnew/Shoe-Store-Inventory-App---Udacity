@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".Instructions.InstructionsFragment">
+
+    <TextView
+        android:id="@+id/instructionTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/instructionTitle"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/instructionTitleText"
+        android:padding="10dp"
+        android:text="@string/instructionsSecondaryText"
+        android:textColor="#2A0A61"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/instructionsShopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="220dp"
+        android:background="#9C7FCF"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:layout_alignParentBottom="true"
+        android:text="Shop now"
+        android:textColor="#F6F3F3"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </Button>
+</RelativeLayout>
+</layout>

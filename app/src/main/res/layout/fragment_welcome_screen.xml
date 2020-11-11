@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5C0EC"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:textAlignment="center"
+    tools:context=".WelcomeScreenFragment.WelcomeScreenFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#FAF9F9"
+        android:padding="10dp"
+        android:text="@string/welcomeText"
+        android:textColor="#673AB7"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="@string/welcomeSecondaryText"
+        android:textColor="#2A0A61"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/welcomeGoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="220dp"
+        android:background="#9C7FCF"
+        android:padding="20dp"
+        android:text="Let's go"
+        android:textColor="#F6F3F3"
+        android:textSize="16sp"
+        android:textStyle="bold">
+
+    </Button>
+
+</LinearLayout>
+</layout>
